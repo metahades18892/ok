@@ -17,10 +17,12 @@ IOS_VERSIONS = [
     "17.1.1",
     "17.1",
     "17.0.3",
+    "16.6.1",  # From hiflybo repo (v397.1 tested)
 ]
 
 # Instagram App Versions (actual release versions)
 APP_VERSIONS = [
+    "397.1.0.38.81",  # From hiflybo repo - verified working
     "312.0.0.37.113",
     "311.0.0.41.110",
     "310.0.0.49.108",
@@ -37,6 +39,7 @@ DEVICE_MODELS = [
     ("iPhone14,5", "iPhone 13"),
     ("iPhone14,2", "iPhone 13 Pro"),
     ("iPhone14,3", "iPhone 13 Pro Max"),
+    ("iPhone10,6", "iPhone X Plus"),  # From hiflybo repo (v397.1 tested)
 ]
 
 # iOS User Agents

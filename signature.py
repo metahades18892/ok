@@ -20,7 +20,8 @@ class SignatureGenerator:
     """
 
     # Instagram's signature key (extracted from iOS binary)
-    SIG_KEY = "a25a6e77ac3d41e69df8b5d7d4e1b3c2f9e8c7d6a5b4c3d2e1f0a9b8c7d6e5f4"
+    # Updated from hiflybo/Instagram_Private_Api_Ios (v397.1) - ACTUAL signature key
+    SIG_KEY = "23966c53a485abc8a46056e59953606212796f430df44d03b1024a9403373fd7"
     SIG_KEY_VERSION = "4"
 
     def __init__(self):
